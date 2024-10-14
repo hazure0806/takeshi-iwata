@@ -1,0 +1,45 @@
+{
+  "plugins": {},
+  "filters": {
+    "comments": true
+  },
+  "rules": {
+    "@proofdict/proofdict": {
+      "dictURL": "https://example.com/dict.json"
+    },
+    "@textlint-ja/no-dropping-i": true,
+    "@textlint-ja/no-insert-dropping-sa": true,
+    "@textlint-rule/no-unmatched-pair": true,
+    "apostrophe": true,
+    "doubled-spaces": true,
+    "ja-hiragana-hojodoushi": true,
+    "ja-nakaguro-or-halfwidth-space-between-katakana": true,
+    "ja-no-abusage": true,
+    "ja-no-mixed-period": true,
+    "ja-no-redundant-expression": true,
+    "ja-no-space-around-parentheses": true,
+    "ja-no-space-between-full-width": true,
+    "ja-space-after-exclamation": true,
+    "ja-space-after-question": true,
+    "ja-space-around-code": true,
+    "ja-space-around-link": true,
+    "ja-space-between-half-and-full-width": true,
+    "ja-unnatural-alphabet": true,
+    "max-comma": true,
+    "max-kanji-continuous-len": true,
+    "max-ten": true,
+    "no-double-negative-ja": true,
+    "no-doubled-conjunction": true,
+    "no-doubled-conjunctive-particle-ga": true,
+    "no-doubled-joshi": true,
+    "no-dropping-the-ra": true,
+    "no-mixed-zenkaku-and-hankaku-alphabet": true,
+    "no-nfd": true,
+    "period-in-list-item": true,
+    "prefer-tari-tari": true,
+    "rousseau": true,
+    "sentence-length": true,
+    "terminology": true,
+    "use-si-units": true
+  }
+}
